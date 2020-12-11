@@ -1,4 +1,4 @@
- 
+
   .footer {
     padding: 2rem 0;
   }
@@ -6,4 +6,57 @@
   svg {
       height: 1em;
       width: 1em;
+  }
+
+  .nav-item-black {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+  }
+
+  .nav-item-black:hover {
+    text-decoration: none;
+    color: rgba(156, 73, 163, 0.8);
+  }
+
+  #moi {
+    height: auto;
+    width: 35em;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+  }
+
+  #contact, .jumbotron, .projet {
+    opacity: 0.8;
+  }
+
+  #contact .child {
+    box-shadow: 1em 1em 5em rgba(0, 0, 0, 0.1);
+  }
+
+  .jumbotron {
+    height: 55vh;
+  }
+  
+  .svg {
+    height: 1em;
+    width: 1em;
+  }
+
+  #slick .slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  #slick .slick-slide {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  #slick .slick-slide:focus {
+    outline: none;
+  }
+
+  #carnet {
+    padding-top: 60px;
   }
