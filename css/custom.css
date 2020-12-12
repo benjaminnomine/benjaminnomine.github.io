@@ -53,11 +53,9 @@
   }
 
   .left-sticky {
-    width: 15rem;
-    border-radius: 3% 3% 3% 3%;
-    font-size: larger;
-    position: sticky;
-    -webkit-position: sticky;
+    width: 20rem;
+    position: fixed;
+    -webkit-position: fixed;
     top: 5em;
     margin-left: 2em;
     display: flex;
@@ -81,6 +79,17 @@
   @media only screen and (max-width: 1300px) {
     .left-sticky {
       display: none;
+      width: 0;
     }
+    main {
+      position: absolute;
+      top:5em;
+      left: 0em;
+    }
+  }
 
+  main {
+    position: absolute;
+    top: 5em;
+    left: 20rem;
   }
